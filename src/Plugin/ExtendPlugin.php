@@ -1,6 +1,7 @@
 <?php
+
 /**
- * WPS Core Fields Class
+ * WPS Core Extend Class
  *
  * @package    WPS\Core
  * @author     Travis Smith <t@wpsmith.net>
