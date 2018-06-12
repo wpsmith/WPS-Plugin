@@ -1,8 +1,8 @@
 {
-  "name"       : "wpsmith/wps-plugin",
+  "name"       : "wpsmith/plugin",
   "description": "Core class for extending WordPress plugins and hiding WordPress plugins on the plugins page.",
   "keywords"   : ["wordpress", "plugin", "dependency", "extension", "extension"],
-  "homepage"   : "https://github.com/wpsmith/WPS-Plugin",
+  "homepage"   : "https://github.com/wpsmith/Plugin",
   "license"    : "GPL-2.0+",
   "authors"    : [
     {
@@ -13,14 +13,14 @@
     }
   ],
   "support"    : {
-    "issues": "https://github.com/wpsmith/WPS-Plugin/issues"
+    "issues": "https://github.com/wpsmith/Plugin/issues"
   },
   "require"    : {
     "php": ">=5.2.4"
   },
   "autoload": {
     "psr-4": {
-      "WPS\\Core\\": "src/Plugin/"
+      "WPS\\Core\\": "src/"
     }
   }
 }
